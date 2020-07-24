@@ -25,6 +25,11 @@ The data comes from a csv file containing the information of 130,000 reviews of 
 In order to simplify the analysis and to guarantee a better quality of the data. It was transformed by replacing or removing missing values, creating new columns (feature engineering) from the pre-existing ones and removing some of the columns that were considered not relevant for this project.
 
 ## Data Exploration
+In this phase the data was analyzed to find patterns and correlations; the whole process can be seen in the [Data Cleaning and Exploration Notebook](https://github.com/jm1988/Wine_Reviews_Analysis/blob/master/Cleaning_and_EDA.ipynb). Some of the insights are:
+- Most of the wines on the data are red variety from California, USA. Also Roger Voss is the most common taster.
+- There doesn't seen to be a high correlation between the numerical variables. The only one that slightly affect the mean rating is the lenght of the description, which could mean that the longer the review the highest rating for any specific wine.
+- The mean rating seems to be higher for wines with vintage between 1930 and 1980. The oldest wines don't necessarily get a better rating.
+- There is not difference in the ratings between red vs white wines based on this data set.
 
 ## Dashboard App Deployment
 
