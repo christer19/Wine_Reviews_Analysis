@@ -33,4 +33,5 @@ In this phase the data was analyzed to find patterns and correlations; the whole
 
 ## Dashboard App Deployment
 
-    
+ The app was deployed on heroku, using Panel as the main design framework.
+ Link: https://wine-reviews-dashboard.herokuapp.com/wr_app
